@@ -6,6 +6,8 @@ built with next.js, tailwind v4, react 19. no external UI libs
 
 ![Next.js](https://img.shields.io/badge/Next.js-16-black) ![React](https://img.shields.io/badge/React-19-blue) ![pages](https://img.shields.io/badge/404%20pages-25-purple)
 
+**[Live Demo →](https://404.domderob.com)**
+
 <p align="center">
   <img src="screenshots/Terminal.png" alt="Terminal" width="30%" />
   <img src="screenshots/No%20Signal.png" alt="No Signal" width="30%" />
