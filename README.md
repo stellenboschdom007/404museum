@@ -1,8 +1,8 @@
 # terminal-not-found
 
-25 creative 404 pages. just pick one (or all of them idc) and drop it into your next.js site
+25 creative 404 pages. just pick one  and drop it into your next.js site
 
-built with next.js, tailwind v4, react 19. no external UI libs, no framer motion, just vibes and CSS
+built with next.js, tailwind v4, react 19. no external UI libs
 
 ![Next.js](https://img.shields.io/badge/Next.js-16-black) ![React](https://img.shields.io/badge/React-19-blue) ![pages](https://img.shields.io/badge/404%20pages-25-purple)
 
