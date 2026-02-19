@@ -94,36 +94,21 @@ function PercentLoader() {
 }
 
 function QRCode() {
-  // Fake QR code made of divs
-  const grid = [
-    [1,1,1,1,1,1,1,0,1,0,1,0,1,0,1,1,1,1,1,1,1],
-    [1,0,0,0,0,0,1,0,0,1,0,1,1,0,1,0,0,0,0,0,1],
-    [1,0,1,1,1,0,1,0,1,1,0,0,1,0,1,0,1,1,1,0,1],
-    [1,0,1,1,1,0,1,0,0,1,1,0,0,0,1,0,1,1,1,0,1],
-    [1,0,1,1,1,0,1,0,1,0,1,1,0,0,1,0,1,1,1,0,1],
-    [1,0,0,0,0,0,1,0,1,1,0,1,0,0,1,0,0,0,0,0,1],
-    [1,1,1,1,1,1,1,0,1,0,1,0,1,0,1,1,1,1,1,1,1],
-    [0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0],
-    [1,0,1,0,0,1,1,1,0,0,1,1,0,1,1,0,1,0,1,1,0],
-    [0,1,0,1,1,0,0,0,1,0,1,0,1,0,0,1,0,1,0,0,1],
-    [1,1,1,1,1,1,1,0,1,0,1,0,1,0,1,1,1,1,1,1,1],
-  ];
   return (
-    <div style={{ flexShrink: 0 }}>
-      {grid.map((row, ri) => (
-        <div key={ri} style={{ display: 'flex' }}>
-          {row.map((cell, ci) => (
-            <div
-              key={ci}
-              style={{
-                width: 4,
-                height: 4,
-                background: cell ? 'white' : 'transparent',
-              }}
-            />
-          ))}
-        </div>
-      ))}
-    </div>
+    <a
+      href="https://youtu.be/dQw4w9WgXcQ?si=n1vWisfBy094vOTt"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{ flexShrink: 0 }}
+    >
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src="https://api.qrserver.com/v1/create-qr-code/?size=84x84&color=ffffff&bgcolor=0078d7&format=svg&data=https%3A%2F%2Fyoutu.be%2FdQw4w9WgXcQ%3Fsi%3Dn1vWisfBy094vOTt"
+        alt="QR code"
+        width={84}
+        height={84}
+        style={{ display: 'block' }}
+      />
+    </a>
   );
 }
